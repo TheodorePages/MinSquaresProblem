@@ -29,7 +29,7 @@ textAlign(LEFT,CENTER);
 text("Rectangle Width: "+inputW.value(),width/5,height*2.2/10);
 text("Rectangle Height: "+inputH.value(),width/5,height*4.2/10);
 text("Results \nNumber of Squares Wide: "+nx+"\nNumber of Squares Tall: "+ny+"\nSquare Side Size: "+x,width/5,height*7/10);
-
+text("Click anywhere to Update Results",width/2,height/2);
   
 }
 
