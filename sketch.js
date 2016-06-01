@@ -26,9 +26,10 @@ textAlign(CENTER,CENTER);
 textSize(width/50);
 text("What is the minimum number\n of squares needed to fill up a rectangle?",width/2,height/10);
 textAlign(LEFT,CENTER);
+text("Results \nNumber of Squares Wide: "+nx+"\nNumber of Squares Tall: "+ny+"\nSquare Side Size: "+x,width/5,height*7/10);
 text("Rectangle Width: "+inputW.value(),width/5,height*2.2/10);
 text("Rectangle Height: "+inputH.value(),width/5,height*4.2/10);
-text("Results \nNumber of Squares Wide: "+nx+"\nNumber of Squares Tall: "+ny+"\nSquare Side Size: "+x,width/5,height*7/10);
+
 calculate(inputW.value(),inputH.value());
 
 }
